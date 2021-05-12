@@ -1,0 +1,9 @@
+; LocalJob.def : Declares the module parameters for the DLL.
+
+LIBRARY      "LocalJob"
+DESCRIPTION  'LocalJob Windows Dynamic Link Library'
+
+EXPORTS
+   DllWorker   @1
+   DllLogReg   @2
+   DllGetLog   @3
